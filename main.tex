@@ -1,0 +1,206 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Syed Saheer Multani} \\ \vspace{1pt}
+    \small Toronto, ON $|$ \small 647-926-4730 $|$ \href{mailto:saheer.multani@torontomu.ca}{\small{saheer.multani@torontomu.ca}} $|$ 
+    \href{https://linkedin.com/in/saheermultani}
+    {\underline{linkedin.com/in/saheermultani}} $|$
+    \href{https://github.com/blazzzin}
+    {\underline{github.com/blazzzin}}
+\end{center}
+
+%-----------Summary of Qualifications-----------
+\section{Summary of Qualifications}
+  \resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{Portfolio Website: \href{https://saheermultani.com}{{\textbf{SAHEERMULTANI.COM}}}}
+        \resumeItem{\textbf{4 Months of Paid Software Development Experience:} Gained hands-on experience with API integrations, automation, and data management during an internship, achieving efficiency improvements and scalable solutions.}
+        \resumeItem{\textbf{2 Years of Customer Service Experience:} Developed key interpersonal and organizational transferrable skills, including communication, problem-solving, and teamwork, in a client-facing environment.}
+        % \resumeItem{Exhibits excellent communication and collaboration skills, effectively working with diverse teams to achieve project goals and mentor peers.}
+        % \resumeItem{Strong problem-solving and analytical skills demonstrated through technical roles, including developing comprehensive integrations for Autodesk BIM 360 and optimizing processes to enhance efficiency and scalability.}
+        \resumeItem{\textbf{Technical Skills:} Proficient in Java, Python, C/C++, JavaScript, HTML/CSS, VHDL, FPGA, Oscilloscopes, MATLAB, x86 Assembly, XML, LaTeX, Bash, Express.js, JavaFX, Flask, GitHub, MySQL, APIs, Smartsheet.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%   %-----------PROGRAMMING SKILLS-----------
+% \section{Summary of Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Java, Python, C/C++, JavaScript, HTML/CSS, VHDL, MATLAB, x86 Assembly, XML, LaTeX, Bash} \\
+%      \textbf{Frameworks}{: Express.js, JavaFX, Flask} \\
+%      \textbf{Tools}{: Windows, Unix, GitHub, FPGA, VS Code, Visual Studio, Quartus II, Apache Netbeans, CodeWarrior, MySQL, Two-Legged OAuth, SSH, Smartsheet, MS Office, Oscilloscope} \\
+%      \textbf{Libraries}{: Tkinter, Python Imaging Library (PIL), Axios, JQuery, Select2}
+%     }}
+%  \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Engineering: Computer Engineering - Software Engineering Option}{Toronto, ON}
+      {Toronto Metropolitan University (Formerly Ryerson University)}{Exp. 2027}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {BIM Software Developer Intern}{May 2024 -- August 2024}
+      {Loblaw Companies Limited}{Brampton, ON}
+      \resumeItemListStart
+        \resumeItem{Developed comprehensive integrations for Autodesk BIM 360, creating a Node.js/Express.js solution that added over 425 users to projects, reducing manual onboarding time by 90+\%.}
+        \resumeItem{Built an advanced API-based integration to add individual users to over 3,500 projects, cutting down onboarding time by 80+\% and enhancing scalability for future expansions.}
+        \resumeItem{Developed Smartsheet-based API applications to automate updates across thousands of entries, drastically reducing manual data entry and enhancing accuracy in project tracking.}
+        \resumeItem{Created Smartsheet workflows to archive tasks across 500+ stores, reducing data management time by 70+\% and decreasing administrative workload.}
+      \resumeItemListEnd
+      \resumeSubheading
+      {General Merchandise \& Grocery Clerk}{July 2022 -- July 2024}
+      {The Real Canadian Wholesale Club}{Mississauga, ON}
+      \resumeItemListStart
+        \resumeItem{Provided great customer service by providing to any customers' needs.}
+        \resumeItem{Ensured store shelves were organized and that product displays met company standards and were stocked.}
+        \resumeItem{\textbf{Skills Gained:} Communication, Customer Service, Team Work \& Collaboration, Time Management, Attention to Detail, Problem-Solving, Responsibility, Product Knowledge, Multitasking, Adaptability.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Smart Crafting Display} $|$ \emph{Forge API, Java, Minecraft, and Gradle}}{September 2024 - Present}
+          \resumeItemListStart
+            \resumeItem{Currently developing a detailed crafting mod/guide in Minecraft to simplify item creation, featuring clear component breakdowns and user-friendly quantity displays.}
+            \resumeItem{Designing a visually appealing interface with customizable backgrounds and increased transparency to enhance user experience and accessibility.}
+            \resumeItem{Working on a fully operational inventory management system, including features for locking the GUI and resizing options to optimize gameplay.}
+        \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{FormatX} $|$ \emph{JavaScript, Python, HTML, CSS, and Flask}}{June - July 2024}
+          \resumeItemListStart
+            \resumeItem{Created a web application that offers advanced features such as image conversion, PDF merging, and splitting, streamlining document management for users with diverse needs.}
+            \resumeItem{Focused on designing an intuitive interface that improves accessibility and engagement, leading to increased user satisfaction and adoption rates.}
+            \resumeItem{Developed secure backend processes for efficient file handling, including error-checking mechanisms and optimized processing workflows, ensuring high performance and reliability in document management tasks.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Retail Banking System} $|$ \emph{JavaFX, MySQL, SQL Plus and Bash}}{April - May 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a retail banking system with a JavaFX GUI and MySQL database, applying object-oriented principles and design patterns for scalability and maintainability.}
+            \resumeItem{Created a role-based authentication system, enabling customers to perform transactions (deposits, withdrawals) and employees to manage accounts.}
+            \resumeItem{Automated database operations with Bash scripts for table creation, data population, and querying, streamlining data management across branches and headquarters.}
+            \resumeItem{Enforced data integrity with unique constraints, credential storage, data reliability, and user experience.}
+          \resumeItemListEnd
+      % \resumeProjectHeading
+      %     {\textbf{Central Processing Unit} $|$ \emph{VHDL, FPGA, and Quartus II}}{November - December 2023}
+      %     \resumeItemListStart
+      %       \resumeItem{Employed Quartus II and VHDL to architect and deploy a custom 8-bit CPU on FPGA, incorporating an Arithmetic and Logic Unit (ALU) and control unit.}
+      %       \resumeItem{Engineered a versatile ALU capable of executing multiple arithmetic and logical operations, leveraging a Finite State Machine (FSM) control unit and a 4x16 decoder for opcodes and coordinate operations across components.}
+      %       \resumeItem{Simulated and verified design with seven-segment display outputs for result visualization.}
+      %     \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%
+
+%-------------------------------------------
+\end{document}
